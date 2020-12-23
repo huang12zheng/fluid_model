@@ -1,10 +1,9 @@
 {
-  "name": "@fluid-example/hello-world",
+  "name": "fluid",
   "version": "0.1.0",
-  "description": "Minimal Fluid Container & Data Object sample to implement a collaborative dice roller as a standalone app.",
-  "repository": "microsoft/FluidHelloWorld",
+  "description": "Fluid Container & Data Object to implement a collaborative app.",
   "license": "MIT",
-  "author": "Microsoft",
+  "author": "hzgood",
   "scripts": {
     "build": "webpack --env prod --env clean",
     "build:dev": "webpack --env.clean",
@@ -13,9 +12,9 @@
     "start:server": "tinylicious"
   },
   "dependencies": {
-    "@fluidframework/aqueduct": "^0.30.1",
-    "@fluidframework/get-tinylicious-container": "^0.30.1",
-    "@fluidframework/map": "^0.30.1"
+    "@fluidframework/aqueduct": "^0.31.0",
+    "@fluidframework/get-tinylicious-container": "^0.31.0",
+    "@fluidframework/map": "^0.31.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
